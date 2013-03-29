@@ -1,0 +1,294 @@
+/**
+ * Copyright (C) cedarsoft GmbH.
+ *
+ * Licensed under the GNU General Public License version 3 (the "License")
+ * with Classpath Exception; you may not use this file except in compliance
+ * with the License. You may obtain a copy of the License at
+ *
+ *         http://www.cedarsoft.org/gpl3ce
+ *         (GPL 3 with Classpath Exception)
+ *
+ * This code is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License version 3 only, as
+ * published by the Free Software Foundation. cedarsoft GmbH designates this
+ * particular file as subject to the "Classpath" exception as provided
+ * by cedarsoft GmbH in the LICENSE file that accompanied this code.
+ *
+ * This code is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+ * version 3 for more details (a copy is included in the LICENSE file that
+ * accompanied this code).
+ *
+ * You should have received a copy of the GNU General Public License version
+ * 3 along with this work; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ * Please contact cedarsoft GmbH, 72810 Gomaringen, Germany,
+ * or visit www.cedarsoft.com if you need additional information or
+ * have any questions.
+ */
+
+body {
+  background-color: #fff;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: repeat-y;
+  font-size: 13px;
+  padding: 0px;
+}
+
+td, select, input, li {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #333333;
+}
+
+code {
+  font-size: 12px;
+}
+
+img {
+  border-color: #297198;
+  border-width: 1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #666666;
+}
+
+a:visited {
+  color: #666666;
+}
+
+a:active, a:hover {
+  color: #297198;
+  text-decoration: underline;
+}
+
+#legend li.externalLink {
+  background: url(../images/external.png) left top no-repeat;
+  padding-left: 18px;
+}
+
+a.externalLink, a.externalLink:link, a.externalLink:visited, a.externalLink:active, a.externalLink:hover {
+  background: url(../images/external.png) right center no-repeat;
+  padding-right: 18px;
+}
+
+#legend li.newWindow {
+  background: url(../images/newwindow.png) left top no-repeat;
+  padding-left: 18px;
+}
+
+a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWindow:hover {
+  background: url(../images/newwindow.png) right center no-repeat;
+  padding-right: 18px;
+}
+
+h1 {
+  color: #297198;
+}
+
+h2 {
+  font-size: 17px;
+  color: #297198;
+}
+
+h3 {
+  padding: 4px 4px 4px 24px;
+  color: white;
+  background-color: #297198;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+h3 a:active,
+h3 a:hover,
+h3 a:link,
+h3 a:visited,
+h3 a {
+  color: white;
+}
+
+p {
+  line-height: 1.3em;
+  font-size: 12px;
+  color: #000;
+}
+
+#breadcrumbs {
+  height: 13px;
+  background-image: url(../images/breadcrumbs.jpg);
+  padding: 5px 10px 14px 20px;
+}
+
+* html #breadcrumbs {
+  padding-bottom: 8px;
+}
+
+#leftColumn {
+  margin: 10px 0 10px 0;
+  border-top-color: #ccc;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-right-color: #ccc;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-color: #ccc;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#navcolumn h5 {
+  font-size: smaller;
+  border-bottom: 1px solid #aaaaaa;
+  padding-top: 2px;
+  padding-left: 9px;
+  color: #297198;
+  background-image: url(../images/h5.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+table.bodyTable th {
+  color: white;
+  background-color: #bbb;
+  text-align: left;
+  font-weight: bold;
+}
+
+table.bodyTable th, table.bodyTable td {
+  font-size: 11px;
+}
+
+table.bodyTable tr.a {
+  background-color: #ddd;
+}
+
+table.bodyTable tr.b {
+  background-color: #eee;
+}
+
+table.bodyTable tr.a:hover, table.bodyTable tr.b:hover {
+  background: #dfe3db;
+}
+
+.source {
+  border: 1px solid #999;
+  overflow: auto
+}
+
+dt {
+  padding: 4px 4px 4px 24px;
+  color: #333333;
+  background-color: #ccc;
+  font-weight: bold;
+  font-size: 14px;
+  background-image: url(../images/h3.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.subsectionTitle {
+  font-size: 13px;
+  font-weight: bold;
+  color: #666;
+
+}
+
+table {
+  font-size: 10px;
+  float: none;
+}
+
+.xright a:link, .xright a:visited, .xright a:active {
+  color: #666;
+}
+
+.xright a:hover {
+  color: #003300;
+}
+
+#banner {
+  height: 93px;
+  background: url(../images/banner.jpg);
+  background-position: top;
+  background-repeat: repeat-x;
+}
+
+#banner #bannerLeft {
+  background-image: url("../images/cedarsoft.jpg");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+#navcolumn ul {
+  margin: 5px 0 15px -0em;
+}
+
+#navcolumn ul a {
+  color: #333333;
+}
+
+#navcolumn ul a:hover {
+  color: #297198;
+}
+
+#intro {
+  border: solid #ccc 1px;
+  margin: 6px 0px 0px 0px;
+  padding: 10px 40px 10px 40px;
+}
+
+.subsection {
+  margin-left: 3px;
+  color: #333333;
+}
+
+.subsection p {
+  font-size: 12px;
+}
+
+#footer {
+  padding: 10px;
+  margin: 20px 0px 20px 0px;
+  border-top: solid #ccc 1px;
+  color: #333333;
+}
+
+.errormark, .warningmark, .donemark, .infomark {
+  background: url(../images/icon_error_sml.gif) no-repeat;
+}
+
+.warningmark {
+  background-image: url(../images/icon_warning_sml.gif);
+}
+
+.donemark {
+  background-image: url(../images/icon_success_sml.gif);
+}
+
+.infomark {
+  background-image: url(../images/icon_info_sml.gif);
+}
+
+#lastPublished {
+  font-style: italic;
+  color: lightgray;
+}
+
+.xleft {
+  text-shadow: 1px 1px 1px #bbbbbb !important
+}
+
+.xright {
+  text-shadow: 1px 1px 1px #bbbbbb !important
+}
